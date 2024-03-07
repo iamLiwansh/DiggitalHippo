@@ -2,6 +2,11 @@ import MaxWidthWrapper from "@/components/MaxWidthWrapper";
 import { Button, buttonVariants } from "@/components/ui/button";
 import Link from "next/link";
 
+const perks =[
+  {
+    name : 'Instant Delivery'
+  }
+]
 export default function Home() {
   return(
     <>
@@ -28,7 +33,9 @@ export default function Home() {
 
   <section className="border-t border-gray-200 bg-gray-50">
     <MaxWidthWrapper className="py-20">
-      <div className="grid grid-cols-1 gap-y-12 sm:grid-cols-2 sm:gap-x-6 lg:grid-cols-3 lg:gap-x-8 lg:gap-y-0"></div>
+      <div className="grid grid-cols-1 gap-y-12 sm:grid-cols-2 sm:gap-x-6 lg:grid-cols-3 lg:gap-x-8 lg:gap-y-0">
+
+      </div>
     </MaxWidthWrapper>
   </section>
   </>
